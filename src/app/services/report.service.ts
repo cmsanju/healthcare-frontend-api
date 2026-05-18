@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class ReportService {
-  private apiUrl = 'https://healthcare-backend-uejq.onrender.com/api/reports';
+  private apiUrl = 'https://healthcare-backend-vgnh.onrender.com/api/reports';
 
   constructor(private http: HttpClient) {}
 
