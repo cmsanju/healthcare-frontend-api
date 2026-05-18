@@ -4,7 +4,7 @@ import { BehaviorSubject, Observable, tap } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private apiUrl = 'https://healthcare-backend-uejq.onrender.com/api/auth';
+  private apiUrl = 'https://healthcare-backend-vgnh.onrender.com/api/auth';
   private isAuthSubject = new BehaviorSubject<boolean>(this.hasToken());
   isAuthenticated$ = this.isAuthSubject.asObservable();
 
