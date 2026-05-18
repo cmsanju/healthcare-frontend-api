@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class DocumentService {
-  private apiUrl = 'http://localhost:8080/api/documents';
+  private apiUrl = 'https://healthcare-backend-uejq.onrender.com/api/documents';
 
   constructor(private http: HttpClient) {}
 
